@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "viewDir=node_modules/mdcontent workingDirectory=. node node_modules/mdcontent/build.js ",
-    "start": "node node_modules/mdcontent/serve.js"
+    "start": "public=node_modules/mdcontent/public node node_modules/mdcontent/serve.js"
   },
   "dependencies": {
      "mdcontent" : "hidef/mdcontent"
