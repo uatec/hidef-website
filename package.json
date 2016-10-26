@@ -1,0 +1,15 @@
+{
+  "name": "hidef-md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "viewDir=node_modules/mdcontent workingDirectory=. node node_modules/mdcontent/build.js ",
+    "start": "node node_modules/mdcontent/serve.js"
+  },
+  "dependencies": {
+     "mdcontent" : "hidef/mdcontent"
+  },
+  "author": "Robert Stiff <hidef-md@hidefsoftware.co.uk>",
+  "license": "MIT"
+}
