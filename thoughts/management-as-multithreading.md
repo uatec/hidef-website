@@ -2,7 +2,7 @@
 
 > What if developers and managers can be models using the same concepts as in multi-threaded software.
 
-As developers we often talk about limiting work in progress. The reasons for this are well understood thanks to books like [The Phoenix Project](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)) and [The Goal](https://en.wikipedia.org/wiki/The_Goal_(novel)) before it. As a developer I notice that this is not entirely unlike a single thread in my software doing a single piece of work at any one time.
+As developers we often talk about limiting work in progress. The reasons for this are well understood thanks to books like [The Phoenix Project](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel%29) and [The Goal](https://en.wikipedia.org/wiki/The_Goal_(novel%29) before it. As a developer I notice that this is not entirely unlike a single thread in my software doing a single piece of work at any one time.
 
 Obviously, in an organisation of any size, you are going to have many individuals in many teams all working on towards different goals, and so you must have multiple work streams, even a single work stream is only working one task at once. This is a parallel for multithreading; increasing through put by increasing the number of channels available to do work.
 
