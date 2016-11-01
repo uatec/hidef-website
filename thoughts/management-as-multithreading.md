@@ -23,15 +23,19 @@ When a stream of work reaches a point where multiple tasks may be conducted in p
 
 From this analogy it seems that it might be worth an experiment in visualising work streams as threads complete with forks and joins so that dependencies might be made visible to the streams involved, and so that the limited number of works streams available (as in a limited number of available threads) can be used to show when work is able to be executed concurrently but cannot be due to other constraints, such as lack of a team/individual to conduct the work until other work has been completed.
 
-### Message Passing
-
-for monitoring, for interaction with other independent services
-
 ### Locks
+
+When two threads are trying to operate on the same resource, we often use locks to ensure that they do not interfere with each other. This means that the act of waiting for a resource to become available, be it a response from a request made to another thread or simply the right to access that same resource is a blocking operation. This mirrors the problem of workstreams being blocked when waiting for dependent tasks and resources to become available. Obviously steps are taken to ensure that the team does not remain blocked. Parking a task and continuing on another is a form of asynchronous work.
+
+### Preemptive Multi tasking
+
+This is probably the most common form of multitasking as an individual worker. You work on a task until someone interrupts you and asks you to do something else. This *does* allow you to be highly responsive as other parties to not have to wait for you to finish your task before interacting, but both humans and computer must context switch every time they are interrupted. For computers this overhead is so minor it's barely even considered, but for humans it is a huge inconveinence and frustration. One of the biggest completains I hear around the office is "I keep being interrupted, I can't get any work done". While this model works well in software for greatly increased flexibility, the trade off of context switching makes this a very painful and flow way of of managing concurrent tasks.
 
 ### Cooperative Multi tasking
 
-### Preemptive Multi tasking
+In contrast to preemptive multi-tasking, cooperative multi-tasking allows the code or the worker to break multiple long running tasks down in to smaller chunks, so that when an individual chunk has been completed, a chunk from a different task can be conducted. This has several parallel swith agile software delivery. Small work items allow management (or the coordinating code) to choose its work dynamically rather than commiting to long periods without the ability to react and change direction. In our work, this may be a change of business or technical direction, in software this may be the decision to stop enumerating a complex data source. This model sacrifices the ability to interrupt a task, also reduces the obstacle of context switching. As humans we are also inclined to be happier about context switching when had got to a natuarl break in the work.
+
+The lack of any ability to interrupt tasks can be a problem in software and in our work. Runaway threads/tasks or tasks that have become blocked never unblocked must be managed. Cooperating multitasking offers you nothing in this area; so while it is a much easier way for us humans to work it is useful to keep preemptive multi-tasking as a weapon on your arsenal in the unfortunate instance that a task or thread gets out of control.
 
 ### Thread Pooling
 
