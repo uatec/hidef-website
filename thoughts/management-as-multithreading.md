@@ -21,7 +21,7 @@ When a program reaches a point where work can be executed concurrently multiple 
 
 When a stream of work reaches a point where multiple tasks may be conducted in parallel, e.g. multiple clients must consume the same service, and completion of these tasks must be synchronised, e.g. for a product launch, the manager is essentially forking threads of working, waiting for them to complete and joining these threads again before continuing execution of the peice of work.
 
-From this analogy it seems that it might be work an experiment in visualising work streams as threads complete with forks and joins so that dependencies might be made visible to the streams involved, and so that the limited number of works streams available (as in a limited number of available threads) can be used to show when work is able to be executed concurrently but cannot be due to other constraints, such as lack of a team/individual to conduct the work until other work has been completed.
+From this analogy it seems that it might be worth an experiment in visualising work streams as threads complete with forks and joins so that dependencies might be made visible to the streams involved, and so that the limited number of works streams available (as in a limited number of available threads) can be used to show when work is able to be executed concurrently but cannot be due to other constraints, such as lack of a team/individual to conduct the work until other work has been completed.
 
 ### Message Passing
 
