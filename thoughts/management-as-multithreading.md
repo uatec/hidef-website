@@ -36,3 +36,7 @@ This is probably the most common form of multitasking as an individual worker. Y
 In contrast to preemptive multi-tasking, cooperative multi-tasking allows the code or the worker to break multiple long running tasks down in to smaller chunks, so that when an individual chunk has been completed, a chunk from a different task can be conducted. This has several parallel swith agile software delivery. Small work items allow management (or the coordinating code) to choose its work dynamically rather than commiting to long periods without the ability to react and change direction. In our work, this may be a change of business or technical direction, in software this may be the decision to stop enumerating a complex data source. This model sacrifices the ability to interrupt a task, also reduces the obstacle of context switching. As humans we are also inclined to be happier about context switching when had got to a natuarl break in the work.
 
 The lack of any ability to interrupt tasks can be a problem in software and in our work. Runaway threads/tasks or tasks that have become blocked never unblocked must be managed. Cooperating multitasking offers you nothing in this area; so while it is a much easier way for us humans to work it is useful to keep preemptive multi-tasking as a weapon on your arsenal in the unfortunate instance that a task or thread gets out of control.
+
+---
+
+I shall continue these thoughts in a second part soon.
