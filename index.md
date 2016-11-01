@@ -1,7 +1,9 @@
 > Let's build awesome software together.
 
 ## Thoughts
- - [Management As Multithreading](thoughts/management-as-multithreading.html)
+ - [Management As Multithreading (Part 1)](thoughts/management-as-multithreading.html)
+ - [Management As Multithreading (Part 2)](thoughts/management-as-multithreading-part-2.html)
+ - [Event Handling in Games](thoughts/event-handling-in-games.html)
 
 ## Projects
  - bIRCh
