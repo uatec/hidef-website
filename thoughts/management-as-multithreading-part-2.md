@@ -20,8 +20,8 @@ In practice an organisation is always able to find work for us to do.
 
 In computing the term 'scheduling' can mean more than one thing:
 
- - Choosing 'when' a task runs. Fairly obvious.
- - Choosing 'where' a task runs. If there are a number of environments with different capabilities, a memory set of tasks may be routinely scheduled to run in an environment with alot of memory, or highly parallel work on an environment with a GPU.
+- Choosing 'when' a task runs. Fairly obvious.
+- Choosing 'where' a task runs. If there are a number of environments with different capabilities, a memory set of tasks may be routinely scheduled to run in an environment with alot of memory, or highly parallel work on an environment with a GPU.
 
 As humans we don't have RAM or SSDs or GPUs, but we do all have different skills and capabilities.
 
