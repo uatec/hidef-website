@@ -1,3 +1,5 @@
+title: Management As Multithreading
+---
 # Management As Multithreading
 
 > What if developers and managers can be models using the same concepts as in multi-threaded software.

@@ -1,3 +1,5 @@
+title: Management as Multithreading - Part 2
+---
 ## Management as Multithreading - Part 2
 
 [Previously](management-as-multithreading) I wrote about how management of a team and multiple work flows can be viewed as similar to the multithreading problem in software development. I also explored some key multithreading concepts and compared them to work management.
