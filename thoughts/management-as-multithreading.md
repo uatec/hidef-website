@@ -39,4 +39,4 @@ The lack of any ability to interrupt tasks can be a problem in software and in o
 
 ---
 
-I shall continue these thoughts in a second part soon.
+I have explored more of these ideas in [Part 2](management-as-multithreading-part-2).
