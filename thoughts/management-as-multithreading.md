@@ -1,7 +1,7 @@
 title: Management As Multithreading
+author: Robert Stiff
+date: 2016-11-02
 ---
-# Management As Multithreading
-
 > What if developers and managers can be models using the same concepts as in multi-threaded software.
 
 As developers we often talk about limiting work in progress. The reasons for this are well understood thanks to books like [The Phoenix Project](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel%29) and [The Goal](https://en.wikipedia.org/wiki/The_Goal_(novel%29) before it. As a developer I notice that this is not entirely unlike a single thread in my software doing a single piece of work at any one time.
