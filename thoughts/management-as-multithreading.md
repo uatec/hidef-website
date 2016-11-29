@@ -9,6 +9,7 @@ As developers we often talk about limiting work in progress. The reasons for thi
 Obviously, in an organisation of any size, you are going to have many individuals in many teams all working on towards different goals, and so you must have multiple work streams, even a single work stream is only working one task at once. This is a parallel for multithreading; increasing through put by increasing the number of channels available to do work.
 
 Some of the roles of management in an organisation are to ensure that different work streams: 
+
 - Have work to do
 - Have access to the resources they need
 - Timelines align with those of other related teams
