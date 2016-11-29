@@ -1,17 +1,17 @@
 title: Event Handling In Games
+author: Robert Stiff
+date: 2012-03-29
 ---
-## Event Handling In Games.
-> Originally posted 29 Mar 2012
 
 Being predominantly an applications programmer, I have a different take on things that people in the games dev area might. Event handling is something that one might do quite differently in many different situations. Here are the ideas I've had and the pros and cons:
 
-### Callbacks
+## Callbacks
 Provided by the language. C#, nowadays, makes extensive use of **Funcs**, **Actions** and provides **Lambdas** to let you do it. Lots of other languages do this too. Even though this is a new concept in some of the higher level languages, only arriving in C# in 2003, C has had this for donkeys years. With C++ probably being the biggest gamedev language this option is widely available for most gamedevs for a long long time, however I have rarely seen it used.
 
-### Messages
+## Messages
 A more application oriented than game oriented way of handling the problem would be to send messages around the **game**, be they objects or strings or hash tables which contain the relevant information. This gives us the option to **trigger an event** and then not care about when or where or how it happens. The advantage in application programming is that you don't need to worry about handling the event, other code will. Great for chopping things up, but I have never seen this approach used in a game, **EVER**.
 
-### Ad Hoc Handling
+## Ad Hoc Handling
 The most common use of event handling that I have seen in games, is just handling it as it comes. I understand that this is nice and simple and logical to have your update method identify that some work needs doing and doing it. But:
 
 1. This buries your events deep in your update method 
