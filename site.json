@@ -1,7 +1,8 @@
 {
     "title": "HiDef Software Ltd",
-    "copyright": {
-        "date": "2016",
-        "name": "HiDef Software Ltd."
+    "social": {
+        "twitter": "@UatecUK",
+        "github": "hidef",
+        "linkedin": "robert-stiff"
     }
 }
